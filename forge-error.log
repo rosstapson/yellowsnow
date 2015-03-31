@@ -1,0 +1,245 @@
+2015-03-30 16:14:56,963 [   INFO] Forge tools running at version 3.3.87
+2015-03-30 16:14:56,963 [  DEBUG] Checking for update zip...
+2015-03-30 16:14:56,973 [  DEBUG] Forge build tools version: 3.3.87
+2015-03-30 16:14:56,973 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2015-03-30 16:14:56,973 [  DEBUG] port: 38394
+2015-03-30 16:14:56,973 [  DEBUG] GET https://trigger.io/api/v1/version_check/3/3/87/
+2015-03-30 16:15:00,081 [  DEBUG] Checking API response for success or error
+2015-03-30 16:15:00,081 [   INFO] Update result: you already have the latest tools
+2015-03-30 16:15:00,084 [  DEBUG] GET https://trigger.io/api/v1/auth/loggedin
+2015-03-30 16:15:00,414 [  DEBUG] Checking API response for success or error
+2015-03-30 16:15:00,414 [  DEBUG] already authenticated via cookie - continuing
+2015-03-30 16:15:00,414 [  DEBUG] GET https://trigger.io/api/v1/app/afb2e1b0d44b11e4aace12313b0234c0/should_fetch_core_instructions
+2015-03-30 16:15:00,765 [  DEBUG] Checking API response for success or error
+2015-03-30 16:15:00,765 [  DEBUG] Server requires rebuild: platform has changed for ross@trigger.io:  vs. f9a53f656181
+2015-03-30 16:15:00,766 [   INFO] Your Forge platform has been updated, downloading updated build instructions.
+2015-03-30 16:15:00,766 [   INFO] Fetching generation instructions for v2.3.1beta-2 into "c:\users\ross\appdata\local\temp\forge-templates-nrf1qi\.template"
+2015-03-30 16:15:00,767 [  DEBUG] GET https://trigger.io/api/v1/platform/v2.3.1beta-2/core_instructions
+2015-03-30 16:15:06,490 [  DEBUG] Unzipping instructions.zip to .
+2015-03-30 16:15:06,641 [   INFO] Removing old templates if present
+2015-03-30 16:15:06,641 [  DEBUG] Removing .template 
+2015-03-30 16:15:06,641 [   INFO] Using new templates
+2015-03-30 16:15:06,641 [  DEBUG] Moving c:\users\ross\appdata\local\temp\forge-templates-nrf1qi\.template to .template
+2015-03-30 16:15:06,790 [   INFO] Running from build-tools
+2015-03-30 16:15:06,851 [  DEBUG] Forge build tools version: 3.3.87
+2015-03-30 16:15:06,851 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2015-03-30 16:15:06,851 [  DEBUG] port: 38394
+2015-03-30 16:15:06,851 [  DEBUG] GET https://trigger.io/api/v1/version_check/3/3/87/
+2015-03-30 16:15:08,815 [  DEBUG] Checking API response for success or error
+2015-03-30 16:15:08,815 [   INFO] Update result: you already have the latest tools
+2015-03-30 16:15:08,815 [  DEBUG] GET https://trigger.io/api/v1/auth/loggedin
+2015-03-30 16:15:09,165 [  DEBUG] Checking API response for success or error
+2015-03-30 16:15:09,165 [  DEBUG] already authenticated via cookie - continuing
+2015-03-30 16:15:09,165 [  DEBUG] GET https://trigger.io/api/v1/app/afb2e1b0d44b11e4aace12313b0234c0/should_fetch_core_instructions
+2015-03-30 16:15:09,466 [  DEBUG] Checking API response for success or error
+2015-03-30 16:15:09,466 [   INFO] Using generate_dynamic.buildtools for build
+2015-03-30 16:15:09,466 [  DEBUG] configuration is identical to last run
+2015-03-30 16:15:09,466 [  DEBUG] POST https://trigger.io/api/v1/reload/buildevent/create
+2015-03-30 16:15:09,920 [  DEBUG] Checking API response for success or error
+2015-03-30 16:15:09,930 [   INFO] Your app configuration has changed since your last build of this platform, performing a remote build of your app. Once this is downloaded future builds will be faster.
+2015-03-30 16:15:09,930 [   INFO] Starting new build
+2015-03-30 16:15:09,930 [   INFO] This could take a while, but will only happen again if you modify config.json
+2015-03-30 16:15:09,930 [  DEBUG] POST https://trigger.io/api/v1/app/afb2e1b0d44b11e4aace12313b0234c0/build
+2015-03-30 16:15:10,579 [  DEBUG] Checking API response for success or error
+2015-03-30 16:15:10,579 [  DEBUG] build 54282 is pending...
+2015-03-30 16:15:20,628 [  DEBUG] POST https://trigger.io/api/v1/app/afb2e1b0d44b11e4aace12313b0234c0/build
+2015-03-30 16:15:20,977 [  DEBUG] Checking API response for success or error
+2015-03-30 16:15:20,977 [  DEBUG] build 54282 is working...
+2015-03-30 16:15:30,959 [  DEBUG] POST https://trigger.io/api/v1/app/afb2e1b0d44b11e4aace12313b0234c0/build
+2015-03-30 16:15:31,510 [  DEBUG] Checking API response for success or error
+2015-03-30 16:15:31,510 [  DEBUG] build 54282 is working...
+2015-03-30 16:15:41,486 [  DEBUG] POST https://trigger.io/api/v1/app/afb2e1b0d44b11e4aace12313b0234c0/build
+2015-03-30 16:15:41,848 [  DEBUG] Checking API response for success or error
+2015-03-30 16:15:41,848 [  DEBUG] build 54282 is working...
+2015-03-30 16:15:51,848 [  DEBUG] POST https://trigger.io/api/v1/app/afb2e1b0d44b11e4aace12313b0234c0/build
+2015-03-30 16:16:04,311 [  DEBUG] Checking API response for success or error
+2015-03-30 16:16:04,311 [   INFO] Fetching Forge templates for 54282 into ".template"
+2015-03-30 16:16:04,311 [  DEBUG] writing https://port_customer_code.s3.amazonaws.com/an-2015-03-30-15-15-44/android-64e97b3f4ebbb6f7343eb118c1fcb27d2723fe71.zip?Signature=jD%2BnnebaL%2Fv5ZLFGGPUaX3Ui4Ro%3D&Expires=1427728565&AWSAccessKeyId=AKIAJYWQNT53NYOWGRIQ to C:\Users\Ross\forge-workspace\yellowsnow\.template\android-64e97b3f4ebbb6f7343eb118c1fcb27d2723fe71.zip
+2015-03-30 16:16:04,311 [  DEBUG] GET https://port_customer_code.s3.amazonaws.com/an-2015-03-30-15-15-44/android-64e97b3f4ebbb6f7343eb118c1fcb27d2723fe71.zip?Signature=jD%2BnnebaL%2Fv5ZLFGGPUaX3Ui4Ro%3D&Expires=1427728565&AWSAccessKeyId=AKIAJYWQNT53NYOWGRIQ
+2015-03-30 16:16:16,311 [  ERROR] Something went wrong that we didn't expect:
+2015-03-30 16:16:16,312 [  ERROR] [Errno 11004] getaddrinfo failed
+2015-03-30 16:16:16,313 [  DEBUG] Traceback (most recent call last):
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge\async.py", line 106, in run
+    result = self._target(*self._args, **self._kwargs)
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge\main.py", line 349, in development_build
+    return development_build(unhandled_args, has_target)
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge\main.py", line 361, in development_build
+    return generate_dynamic.buildtools.development_build_dynamic(unhandled_args, has_target, manager, remote, app_config, stable_platform, development_build)
+  File "C:\Users\Ross\forge-workspace\yellowsnow\.template\generate_dynamic\buildtools.py", line 106, in development_build_dynamic
+    remote.fetch_unpackaged(build, to_dir=defaults.TEMPLATE_DIR, target=target)
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge\remote.py", line 663, in fetch_unpackaged
+    progress_bar_title=target,
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge\remote.py", line 591, in _get_file
+    response = self._get(url)
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge\remote.py", line 504, in _get
+    resp = self.__get_or_post(url, *args, **kw)
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge\remote.py", line 411, in __get_or_post
+    resp = getattr(self.session, method.lower())(url, *args, **kw)
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge-dependencies\requests\sessions.py", line 254, in get
+    return self.request('get', url, **kwargs)
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge-dependencies\requests\sessions.py", line 241, in request
+    r.send(prefetch=prefetch)
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge-dependencies\requests\models.py", line 634, in send
+    raise ConnectionError(sockerr)
+ConnectionError: [Errno 11004] getaddrinfo failed
+
+2015-03-30 16:16:16,313 [  ERROR] See C:\Users\Ross\forge-workspace\yellowsnow\forge-error.log for more details
+2015-03-30 16:16:16,315 [  ERROR] Please contact support@trigger.io
+2015-03-30 18:31:26,486 [   INFO] Forge tools running at version 3.3.87
+2015-03-30 18:31:26,486 [  DEBUG] Checking for update zip...
+2015-03-30 18:31:26,628 [   INFO] Running from build-tools
+2015-03-30 18:31:26,658 [  DEBUG] Enabled platforms: ['android']
+2015-03-30 18:31:26,658 [  DEBUG] Using configuration file value u'C:/Users/Ross/AppData/Local/Android/sdk/' for android.sdk
+2015-03-30 18:31:26,658 [  DEBUG] Using configuration file value u'simulator' for android.device
+2015-03-30 18:31:26,658 [  DEBUG] Forge build tools version: 3.3.87
+2015-03-30 18:31:26,658 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2015-03-30 18:31:26,658 [  DEBUG] port: 38394
+2015-03-30 18:31:26,668 [  DEBUG] GET https://trigger.io/api/v1/auth/loggedin
+2015-03-30 18:31:29,078 [  DEBUG] Checking API response for success or error
+2015-03-30 18:31:29,078 [  DEBUG] already authenticated via cookie - continuing
+2015-03-30 18:31:29,088 [  DEBUG] POST https://trigger.io/api/v1/track/
+2015-03-30 18:31:29,088 [  DEBUG] <ForgeTask (android)> running...
+2015-03-30 18:31:29,098 [  DEBUG] <ForgeTask (android)> script:
+[{'do': {'run_android': ('C:\\Users\\Ross\\forge-workspace\\yellowsnow\\development',
+                         u'C:/Users/Ross/AppData/Local/Android/sdk/',
+                         u'simulator',
+                         True,
+                         None)},
+  'when': {'platform_is': 'android'}}]
+2015-03-30 18:31:29,098 [  DEBUG] Using configuration file value u'C:/Users/Ross/AppData/Local/Android/sdk/' for android.sdk
+2015-03-30 18:31:29,108 [   INFO] Starting ADB if not running
+2015-03-30 18:31:29,108 [  DEBUG] Running detached: C:\Users\Ross\AppData\Local\Android\sdk\platform-tools\adb start-server
+2015-03-30 18:31:29,209 [   INFO] Looking for Android device
+2015-03-30 18:31:29,209 [  DEBUG] Running: C:\Users\Ross\AppData\Local\Android\sdk\platform-tools\adb devices
+2015-03-30 18:31:29,239 [  ERROR] No such device "simulator"
+2015-03-30 18:31:29,239 [  ERROR] The available devices are:
+2015-03-30 18:31:29,239 [  ERROR] 999078c7
+2015-03-30 18:31:29,239 [  ERROR] 
+2015-03-30 18:31:29,239 [  DEBUG] Traceback (most recent call last):
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge\async.py", line 106, in run
+    result = self._target(*self._args, **self._kwargs)
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge\main.py", line 461, in run
+    build_to_run=build_to_run,
+  File "C:\Users\Ross\forge-workspace\yellowsnow\.template\generate_dynamic\customer_goals.py", line 141, in run_app
+    build_to_run.run()
+  File "C:\Users\Ross\forge-workspace\yellowsnow\.template\generate_dynamic\build.py", line 342, in run
+    self._call_with_params(task_method, task_args)
+  File "C:\Users\Ross\forge-workspace\yellowsnow\.template\generate_dynamic\build.py", line 301, in _call_with_params
+    return method(self, *params)
+  File "C:\Users\Ross\forge-workspace\yellowsnow\.template\generate_dynamic\android_tasks.py", line 678, in run_android
+    raise AndroidError
+AndroidError
+
+2015-03-30 18:32:33,621 [   INFO] Forge tools running at version 3.3.87
+2015-03-30 18:32:33,622 [  DEBUG] Checking for update zip...
+2015-03-30 18:32:33,747 [   INFO] Running from build-tools
+2015-03-30 18:32:33,816 [  DEBUG] Enabled platforms: ['android']
+2015-03-30 18:32:33,816 [  DEBUG] Using configuration file value u'C:/Users/Ross/AppData/Local/Android/sdk/' for android.sdk
+2015-03-30 18:32:33,816 [  DEBUG] Using configuration file value u'simulator' for android.device
+2015-03-30 18:32:33,816 [  DEBUG] Forge build tools version: 3.3.87
+2015-03-30 18:32:33,816 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2015-03-30 18:32:33,816 [  DEBUG] port: 38394
+2015-03-30 18:32:33,816 [  DEBUG] GET https://trigger.io/api/v1/auth/loggedin
+2015-03-30 18:32:37,130 [  DEBUG] Checking API response for success or error
+2015-03-30 18:32:37,130 [  DEBUG] already authenticated via cookie - continuing
+2015-03-30 18:32:37,130 [  DEBUG] POST https://trigger.io/api/v1/track/
+2015-03-30 18:32:37,130 [  DEBUG] <ForgeTask (android)> running...
+2015-03-30 18:32:37,130 [  DEBUG] <ForgeTask (android)> script:
+[{'do': {'run_android': ('C:\\Users\\Ross\\forge-workspace\\yellowsnow\\development',
+                         u'C:/Users/Ross/AppData/Local/Android/sdk/',
+                         u'simulator',
+                         True,
+                         None)},
+  'when': {'platform_is': 'android'}}]
+2015-03-30 18:32:37,130 [  DEBUG] Using configuration file value u'C:/Users/Ross/AppData/Local/Android/sdk/' for android.sdk
+2015-03-30 18:32:37,130 [   INFO] Starting ADB if not running
+2015-03-30 18:32:37,130 [  DEBUG] Running detached: C:\Users\Ross\AppData\Local\Android\sdk\platform-tools\adb start-server
+2015-03-30 18:32:37,193 [   INFO] Looking for Android device
+2015-03-30 18:32:37,193 [  DEBUG] Running: C:\Users\Ross\AppData\Local\Android\sdk\platform-tools\adb devices
+2015-03-30 18:32:37,207 [  ERROR] No such device "simulator"
+2015-03-30 18:32:37,207 [  ERROR] The available devices are:
+2015-03-30 18:32:37,207 [  ERROR] 999078c7
+emulator-5554
+2015-03-30 18:32:37,209 [  ERROR] 
+2015-03-30 18:32:37,209 [  DEBUG] Traceback (most recent call last):
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge\async.py", line 106, in run
+    result = self._target(*self._args, **self._kwargs)
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge\main.py", line 461, in run
+    build_to_run=build_to_run,
+  File "C:\Users\Ross\forge-workspace\yellowsnow\.template\generate_dynamic\customer_goals.py", line 141, in run_app
+    build_to_run.run()
+  File "C:\Users\Ross\forge-workspace\yellowsnow\.template\generate_dynamic\build.py", line 342, in run
+    self._call_with_params(task_method, task_args)
+  File "C:\Users\Ross\forge-workspace\yellowsnow\.template\generate_dynamic\build.py", line 301, in _call_with_params
+    return method(self, *params)
+  File "C:\Users\Ross\forge-workspace\yellowsnow\.template\generate_dynamic\android_tasks.py", line 678, in run_android
+    raise AndroidError
+AndroidError
+
+2015-03-31 08:09:07,355 [   INFO] Forge tools running at version 3.3.87
+2015-03-31 08:09:07,365 [  DEBUG] Checking for update zip...
+2015-03-31 08:09:07,516 [   INFO] Running from build-tools
+2015-03-31 08:09:07,538 [  DEBUG] Enabled platforms: ['android']
+2015-03-31 08:09:07,538 [  DEBUG] Using configuration file value u'C:/Users/Ross/AppData/Local/Android/sdk/' for android.sdk
+2015-03-31 08:09:07,538 [  DEBUG] Using configuration file value u'emulator-5554' for android.device
+2015-03-31 08:09:07,538 [  DEBUG] Forge build tools version: 3.3.87
+2015-03-31 08:09:07,538 [  DEBUG] main: {"server": "https://trigger.io/api/"}
+2015-03-31 08:09:07,538 [  DEBUG] port: 38394
+2015-03-31 08:09:07,538 [  DEBUG] GET https://trigger.io/api/v1/auth/loggedin
+2015-03-31 08:09:09,543 [  DEBUG] Checking API response for success or error
+2015-03-31 08:09:09,543 [  DEBUG] already authenticated via cookie - continuing
+2015-03-31 08:09:09,543 [  DEBUG] POST https://trigger.io/api/v1/track/
+2015-03-31 08:09:09,543 [  DEBUG] <ForgeTask (android)> running...
+2015-03-31 08:09:09,543 [  DEBUG] <ForgeTask (android)> script:
+[{'do': {'run_android': ('c:\\Users\\Ross\\forge-workspace\\yellowsnow\\development',
+                         u'C:/Users/Ross/AppData/Local/Android/sdk/',
+                         u'emulator-5554',
+                         True,
+                         None)},
+  'when': {'platform_is': 'android'}}]
+2015-03-31 08:09:09,543 [  DEBUG] Using configuration file value u'C:/Users/Ross/AppData/Local/Android/sdk/' for android.sdk
+2015-03-31 08:09:09,543 [   INFO] Starting ADB if not running
+2015-03-31 08:09:09,543 [  DEBUG] Running detached: C:\Users\Ross\AppData\Local\Android\sdk\platform-tools\adb start-server
+2015-03-31 08:09:13,756 [   INFO] Looking for Android device
+2015-03-31 08:09:13,756 [  DEBUG] Running: C:\Users\Ross\AppData\Local\Android\sdk\platform-tools\adb devices
+2015-03-31 08:09:13,796 [  DEBUG] No devices found, checking again
+2015-03-31 08:09:15,799 [  DEBUG] Running: C:\Users\Ross\AppData\Local\Android\sdk\platform-tools\adb devices
+2015-03-31 08:09:15,858 [  DEBUG] No devices found, checking again
+2015-03-31 08:09:17,864 [  DEBUG] Running: taskkill /T /IM adb.exe
+2015-03-31 08:09:18,013 [  DEBUG] ERROR: The process with PID 4840 (child process of PID 4472) could not be terminated.
+2015-03-31 08:09:18,013 [  DEBUG] Reason: This process can only be terminated forcefully (with /F option).
+2015-03-31 08:09:18,013 [  DEBUG] Failed to run taskkill /T /IM adb.exe, but was told to carry on anyway
+2015-03-31 08:09:18,013 [  DEBUG] Running: taskkill /T /F /IM adb.exe
+2015-03-31 08:09:18,073 [  DEBUG] SUCCESS: The process with PID 4840 (child process of PID 4472) has been terminated.
+2015-03-31 08:09:18,073 [  DEBUG] Running detached: C:\Users\Ross\AppData\Local\Android\sdk\platform-tools\adb start-server
+2015-03-31 08:09:22,190 [  DEBUG] Running: C:\Users\Ross\AppData\Local\Android\sdk\platform-tools\adb devices
+2015-03-31 08:09:22,220 [  DEBUG] No devices found, checking again
+2015-03-31 08:09:24,220 [  DEBUG] Running: C:\Users\Ross\AppData\Local\Android\sdk\platform-tools\adb devices
+2015-03-31 08:10:13,006 [  DEBUG] Using configuration file value u'C:/Users/Ross/AppData/Local/Android/sdk/' for android.sdk
+2015-03-31 08:10:13,006 [   INFO] Starting ADB if not running
+2015-03-31 08:10:13,006 [  DEBUG] Running detached: C:\Users\Ross\AppData\Local\Android\sdk\platform-tools\adb start-server
+2015-03-31 08:10:13,155 [   INFO] Looking for Android device
+2015-03-31 08:10:13,155 [  DEBUG] Running: C:\Users\Ross\AppData\Local\Android\sdk\platform-tools\adb devices
+2015-03-31 08:10:13,155 [  ERROR] No such device "emulator-5554"
+2015-03-31 08:10:13,155 [  ERROR] The available devices are:
+2015-03-31 08:10:13,155 [  ERROR] 999078c7
+2015-03-31 08:10:13,155 [  ERROR] 
+2015-03-31 08:10:13,155 [  DEBUG] Traceback (most recent call last):
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge\async.py", line 106, in run
+    result = self._target(*self._args, **self._kwargs)
+  File "C:\Users\Ross\AppData\Local\Trigger Toolkit\build-tools\forge\main.py", line 461, in run
+    build_to_run=build_to_run,
+  File "c:\Users\Ross\forge-workspace\yellowsnow\.template\generate_dynamic\customer_goals.py", line 141, in run_app
+    build_to_run.run()
+  File "c:\Users\Ross\forge-workspace\yellowsnow\.template\generate_dynamic\build.py", line 342, in run
+    self._call_with_params(task_method, task_args)
+  File "c:\Users\Ross\forge-workspace\yellowsnow\.template\generate_dynamic\build.py", line 301, in _call_with_params
+    return method(self, *params)
+  File "c:\Users\Ross\forge-workspace\yellowsnow\.template\generate_dynamic\android_tasks.py", line 657, in run_android
+    interactive=interactive)
+  File "c:\Users\Ross\forge-workspace\yellowsnow\.template\generate_dynamic\lib.py", line 20, in wrapper
+    return function(*args, **kw)
+  File "c:\Users\Ross\forge-workspace\yellowsnow\.template\generate_dynamic\android_tasks.py", line 678, in run_android
+    raise AndroidError
+AndroidError
+
