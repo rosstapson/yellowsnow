@@ -1,6 +1,6 @@
 window.forge = {}; window.forge.config = {
     "author": "ross@trigger.io", 
-    "config_hash": "e3b3706260d53a7dad52fbaf46e25fdea29506b4", 
+    "config_hash": "c648a43481eba2c2f1b9478f07ac106a9aebf0f9", 
     "config_version": "4", 
     "core": {
         "android": {
@@ -33,6 +33,10 @@ window.forge = {}; window.forge.config = {
         "nanookmod": {
             "version": "0.4.5"
         }, 
+        "parameters": {
+            "config": {}, 
+            "version": "2.0"
+        }, 
         "topbar": {
             "version": "2.7"
         }
@@ -44,5 +48,6 @@ window.forge = {}; window.forge.config = {
     "version": "0.1"
 }; window.forge.module_mapping = {
     "nanookmod": "nanookmod", 
+    "parameters": "parameters", 
     "topbar": "topbar"
 };

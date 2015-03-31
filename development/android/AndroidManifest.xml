@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="io.trigger.forgeafb2e1b0d44b11e4aace12313b0234c0" android:installLocation="auto" android:versionCode="1427733354" android:versionName="0.1">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="io.trigger.forgeafb2e1b0d44b11e4aace12313b0234c0" android:installLocation="auto" android:versionCode="1427785312" android:versionName="0.1">
     
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

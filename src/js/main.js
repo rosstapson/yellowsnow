@@ -1,10 +1,10 @@
 	//forge.logging.info("main.js");
 
 	function onFailure(e) {
-				alert("Error: " + e);
+				forge.logging.error("Error: " + e);
 	}
 	function onSuccess() {
-				alert("all good.");
+				forge.logging.info("all good.");
 	}
 
 			
